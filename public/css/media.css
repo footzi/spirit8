@@ -1,0 +1,9 @@
+@media (max-width:750px) {
+    .about-list-objects-btn {
+        margin-bottom: 25px;
+    }
+    
+    #carousel-team {
+        height: 850px;
+    }
+}

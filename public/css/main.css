@@ -1,0 +1,299 @@
+@font-face {
+	font-family:OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold.ttf)
+}
+@font-face {
+	font-family:OpenSans-Light;
+	src: url(../fonts/OpenSans-Light.ttf)
+}
+@font-face {
+	font-family:OpenSans-Regular;
+	src: url(../fonts/OpenSans-Regular.ttf)
+}
+@font-face {
+	font-family:OpenSans-Italic;
+	src: url(../fonts/OpenSans-Italic.ttf)
+}
+@font-face {
+	font-family:OpenSans-Semibold;
+	src: url(../fonts/OpenSans-Semibold.ttf)
+}
+
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url('../fonts/Lato-Regular/Lato-Regular.eot');
+	src: local('☺'), url('../fonts/Lato-Regular/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'), url('../fonts/Lato-Regular/Lato-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{padding:0;margin:0;*font-size:small;*font:x-small}
+h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style:normal}
+ul{list-style:none}img{border:0}p{margin:0; padding: 0}
+hr{border:none;}
+
+body {
+	font-family: OpenSans-Regular;
+	background-color: white;
+	color:black;
+} 
+
+header {
+	background: url(../image/01.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 750px;
+	
+}
+.wrapper {
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.navbar {
+	padding-top: 40px;
+	font-size: 14px;
+	/*position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2*/
+}
+.navbar a {
+	font-family:"Lato-Regular";
+	color:white;
+	padding: 10px !important;
+	/*transition: 0.2s all;*/
+}
+.navbar-nav > li > a:hover {
+	background-color: rgba(0,0,0,0);
+	color:white;
+	border-bottom: 1px solid #fcac45;
+}
+.navbar-brand {
+	font-size: 24px;
+}
+.icon-bar {
+	background-color: white;
+}
+
+.header-banner {
+	margin-top: 200px;
+	text-align: center;
+	font-family: OpenSans-Regular;
+}
+.header-banner h1 {
+	color:#999999;
+	font-size: 44px;
+}
+.header-banner h1 span {
+	color:#fcac45;
+
+}
+.header-banner h2 {
+	margin-top: 20px;
+	color:#b9b9b9;
+	font-size: 20px;
+}
+.header-banner h2 span {
+	color:#d5d5d5;
+}
+.header-banner-icon {
+	margin: 280px auto 0px auto;
+	border:4px solid #999999;
+	color:#999999;
+	width:50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.header-banner-icon span {
+	font-size: 25px;
+    margin-top: 10px;
+    margin-left: 2px
+}
+
+
+.about {
+	background-color: white;
+	font-family: OpenSans-Regular;
+	padding-top:100px;
+}
+.about h2 {
+	font-size: 20px;
+	color:#636363;
+}
+.about h3 {
+	margin-top: 20px;
+	font-size: 34px;
+	color:#222222;
+}
+.about-line {
+	margin-top: 20px;
+}
+.about-line hr {
+	position: relative;
+	margin:0px;
+	width: 97px;
+	height: 5px;
+	background-color:#fcac45;
+}
+.about-slogan {
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 1.389;
+	color:#6c6c6c;
+}
+.about-list {
+	margin-top: 20px;
+}
+.about-list-objects {
+	font-family: OpenSans-Italic;
+	color:#5a5a5a;
+	font-size: 15px;
+}
+.about-list-objects-title {
+	font-family: OpenSans-Semibold;
+	font-size: 17px;
+}
+.about-list-objects-btn {
+	margin-top: 25px;
+	font-size: 12px;
+	padding: 15px 20px;
+}
+.about-list-objects-btn span {
+	margin-right: 8px;
+}
+
+/*****team*****/
+.team {
+	font-family: OpenSans-Regular;
+	background-color: black;
+	text-align: center;
+	color:white;
+	background: url(../image/03.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.team h2 {
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 44px;
+}
+.line1 {
+	margin-top: 30px;
+}
+.line1 {
+	margin-top: 10px;
+}
+.line1 hr, .line2 hr {
+	height: 5px;
+	position: relative;
+}
+.line1 hr {
+	width: 95px;
+	background-color:#fcac45;
+}
+.line2 hr {
+	width: 65px;
+	background-color: #b37b33;
+}
+.team-worker {
+	text-align: center;
+	margin-top: 90px;
+}
+.team-worker-icon {
+	margin: 0 auto;
+}
+.team-worker-icon img {
+	border:4px solid transparent;
+	height: 128px;
+	width: 128px;
+	border-radius: 50%;
+	transition: 0.5s all;
+}
+.team-worker:hover .team-worker-icon img {
+	border:4px solid #fcac45;
+}
+.team-worker-name {
+	margin-top: 20px;
+	font-family: OpenSans-Bold;
+	font-size:20px;
+}
+.team-worker-post {
+	margin-top: 10px;
+	font-family: OpenSans-Regular;
+	font-size:16px
+}
+.team-worker-info {
+	margin-top: 35px;
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+	line-height: 1.714;
+}
+#carousel-team {
+	height: 530px;
+	margin-bottom: 80px;
+}
+.carousel-indicators li, .carousel-indicators .active  {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius:0 !important;
+	margin: 0 !important;
+	background-color: white;
+}
+.carousel-indicators .active {
+	border-color:#fcac45;
+	background-color: #fcac45;
+}
+
+/*****sevices*****/
+.services {
+	background-color: white;
+	font-family: OpenSans-Regular;
+	text-align: center;
+}
+.services h2 {
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 44px;
+	color:#222222;
+}
+.services-text {
+	text-align: center;
+	font-family: OpenSans-Italic;
+	color:#6c6c6c;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.services-content {
+	margin-top: 105px;
+}
+.sevices-content-item-icon {
+	margin: 0 auto;
+	width: 128px;
+	height: 128px;
+	border-radius:50%;
+	border: 5px solid #fcac45;
+	transition: 0.5s all;
+}
+.sevices-content-item-icon i {
+	margin-top: 32px;
+}
+.sevices-content-item-icon:hover  {
+	background-color: #fcac45;
+}
+.sevices-content-item-icon:hover .fa {
+	color:white;
+}
+.sevices-content-item h3 {
+	font-family: OpenSans-Semibold;
+	margin: 30px 0 20px 0;
+	font-size:25px;
+}
+.sevices-content-item {
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
