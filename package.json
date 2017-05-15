@@ -12,5 +12,8 @@
     "npm": "3.10.3"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
 }

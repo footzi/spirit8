@@ -317,6 +317,11 @@ header {
 }
 #carousel-clients {
 	margin-top: 90px;
+	height: 100px;
+}
+#carousel-clients-1 {
+	height: 100px;
+	margin-top: 90px;
 }
 #carousel-clients img {
 	width: 100%;

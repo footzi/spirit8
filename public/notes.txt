@@ -1,0 +1,25 @@
+<div class="item active hidden-lg  hidden-md">
+                        <div class="container">
+                            <div class="row-fluid">
+                                <div class="col-sm-6 col-xs-6">
+                                    <img class="img-responsive" src="image/clients/1.png" alt="">
+                                </div>
+                                <div class="col-sm-6 col-xs-6" >
+                                    <img class="img-responsive" src="image/clients/2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item hidden-lg  hidden-md">
+                        <div class="container">
+                            <div class="row-fluid">
+                                <div class="col-sm-6 col-xs-6">
+                                    <img class="img-responsive" src="image/clients/3.png" alt="">
+                                </div>
+                                <div class="col-sm-6 col-xs-6" >
+                                    <img class="img-responsive" src="image/clients/4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
