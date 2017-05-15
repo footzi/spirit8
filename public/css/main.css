@@ -172,7 +172,6 @@ header {
 	background: url(../image/03.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	
 }
 
 .team h2 {
@@ -198,9 +197,12 @@ header {
 	width: 65px;
 	background-color: #b37b33;
 }
+#carousel-team {
+	margin-top: 90px;
+}
 .team-worker {
 	text-align: center;
-	margin-top: 90px;
+	
 }
 .team-worker-icon {
 	margin: 0 auto;
@@ -295,5 +297,27 @@ header {
 	font-family: OpenSans-Regular;
 	font-size: 14px;
 	line-height: 1.5;
+	margin-bottom: 100px;
 }
 
+/*****clients*****/
+.clients {
+	font-family: OpenSans-Regular;
+	background-color: black;
+	text-align: center;
+	color:white;
+	background: url(../image/04.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.clients h2 {
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 44px;
+}
+#carousel-clients {
+	margin-top: 90px;
+}
+#carousel-clients img {
+	width: 100%;
+}
