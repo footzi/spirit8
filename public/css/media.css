@@ -6,4 +6,20 @@
     #carousel-team {
         height: 850px;
     }
+    .works-navigation {
+    	flex-direction: column;
+    	text-align: left;
+    	align-items: flex-start;
+    }
+    .works-navigation-items ul {
+	    flex-direction: column;
+	}
+	.works-navigation-items li {
+		margin-top: 10px;
+	}
+
+}
+
+@media (max-width:550px) {
+	
 }

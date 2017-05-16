@@ -351,8 +351,10 @@ header {
 }
 .works-navigation {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	font-size: 18px;
+	margin-bottom: 30px;
 }
 .works-navigation-title {
 	font-family: OpenSans-Semibold;
@@ -364,16 +366,17 @@ header {
 }
 .works-navigation-items ul {
 	display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 .works-navigation-items li {
 	margin-right: 10px;
 } 
 .works-content-list {
-	display: inline-block;
-	margin-top: 50px;
-}
 
+}
+.works-content-list-item {
+	margin-bottom: 15px;
+}
 .works-content-list-item-text {
 	padding-top: 70px;
 	font-family: OpenSans-Semibold;
@@ -415,4 +418,7 @@ header {
 }
 .works-content-list-item:hover .works-content-list-item-text h3 {
 	top: 0;
+}
+.is-checked {
+	font-weight: bolder;
 }
