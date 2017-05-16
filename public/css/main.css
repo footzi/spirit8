@@ -31,7 +31,7 @@ body{padding:0;margin:0;*font-size:small;*font:x-small}
 h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style:normal}
 ul{list-style:none}img{border:0}p{margin:0; padding: 0}
 hr{border:none;}
-
+.center {margin:0 auto};
 body {
 	font-family: OpenSans-Regular;
 	background-color: white;
@@ -317,7 +317,8 @@ header {
 }
 #carousel-clients {
 	margin-top: 90px;
-	height: 100px;
+	height: 170px;
+	margin-bottom: 60px;
 }
 #carousel-clients-1 {
 	height: 100px;
@@ -325,4 +326,93 @@ header {
 }
 #carousel-clients img {
 	width: 100%;
+}
+
+/*****works*****/
+.works {
+	font-family: OpenSans-Regular;
+	background-color: white;
+	text-align: center;
+}
+.works h2 {
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 44px;
+}
+.works-text {
+	text-align: center;
+	font-family: OpenSans-Italic;
+	color:#6c6c6c;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.works-content {
+	margin-top: 100px;
+}
+.works-navigation {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+}
+.works-navigation-title {
+	font-family: OpenSans-Semibold;
+	color:black;
+}
+.works-navigation-items {
+	font-family: OpenSans-Regular;
+	color:#6c6c6c;
+}
+.works-navigation-items ul {
+	display: flex;
+    flex-direction: row
+}
+.works-navigation-items li {
+	margin-right: 10px;
+} 
+.works-content-list {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.works-content-list-item-text {
+	padding-top: 70px;
+	font-family: OpenSans-Semibold;
+	color:white;
+	position: absolute;
+	top:0;
+	height: 100%;
+	width: 90%;
+	background-color: rgba(0,0,0,0.5);
+	opacity:0;
+	transition: 0.5s all;
+}
+.works-content-list-item-text h3 {
+	position: relative;
+	top:30px;
+	font-size: 20px;
+	transition: 0.5s all;
+}
+.works-content-list-item-text h4 {
+	margin-top: 20px;
+	font-size: 14px;
+	color:#b2b2b2;
+}
+.works-content-list-item-text i {
+	margin-top: -15px;
+	color:#fcac45;
+	border:2px solid #fcac45;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding-top: 4px;
+	transition: 0.5s all;
+}
+.works-content-list-item:hover .works-content-list-item-text {
+	opacity: 1;
+}
+.works-content-list-item:hover .works-content-list-item-text i {
+	margin-top: 22px;
+}
+.works-content-list-item:hover .works-content-list-item-text h3 {
+	top: 0;
 }
