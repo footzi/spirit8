@@ -369,25 +369,30 @@ header {
     flex-direction: row;
 }
 .works-navigation-items li {
+	cursor: pointer;
 	margin-right: 10px;
 } 
-.works-content-list {
-
-}
 .works-content-list-item {
 	margin-bottom: 15px;
+	position: relative;
 }
 .works-content-list-item-text {
-	padding-top: 70px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 	font-family: OpenSans-Semibold;
 	color:white;
 	position: absolute;
 	top:0;
 	height: 100%;
-	width: 90%;
+	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 	opacity:0;
 	transition: 0.5s all;
+}
+.works-content-list-item-hover {
+	position: relative;
 }
 .works-content-list-item-text h3 {
 	position: relative;
@@ -422,3 +427,39 @@ header {
 .is-checked {
 	font-weight: bolder;
 }
+
+/*****testimonials*****/
+.testimonials {
+	font-family: OpenSans-Semibold;
+	background-color: black;
+	text-align: center;
+	color:white;
+	background: url(../image/03.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.testimonials h2 {
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 44px;
+}
+#carousel-testimonials {
+	margin-top: 100px;
+}
+.testimonials-item {
+	text-align: center;
+	font-size: 18px;
+}
+.testimonials-item h3 {
+	color:#e7e7e7;
+}
+.testimonials-item p {
+	margin-top: 50px;
+	color:#b2b2b2;
+}
+#carousel-testimonials .carousel-indicators {
+	position: relative;
+	bottom:0;
+}
+
+/*****contacts******/
