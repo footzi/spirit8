@@ -463,3 +463,18 @@ header {
 }
 
 /*****contacts******/
+.contacts {
+	font-family: OpenSans-Light;
+	text-align: center;
+}
+.contacts h2 {
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 44px;
+}
+.contacts-content-text {
+	text-align: center;
+	font-family: SemiBold-Italic;
+	font-size: 16px;
+	color:#6c6c6c;
+}
