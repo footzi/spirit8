@@ -484,9 +484,51 @@ header {
 }
 .form-password {
 	text-align: left;
+	padding-right: 0;
+}
+.contacts-content-form {
+	margin-top: 50px;
+}
+.contacts-content-form input, textarea {
+	width:100%;
+	height: 40px;
+	border:1px solid #999999;
+	padding-left:5px; 
+}
+label {
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+	color:#636363;
+}
+sup {
+	color:red;
+}
+.form-message {
 	padding: 0;
+	margin-top: 30px;
+	text-align: left;
+}
+textarea {
+	padding-top:5px;
+	height: 160px;
+}
+.form-button {
+	padding: 0;
+	text-align: right;
+}
+button {
+	width: 100%;
 }
 
-.contacts-content-form input {
-	width:100%;
+/*****footer*****/
+footer {
+	background-color: black;
+	padding: 40px 0;
+	font-family: OpenSans-Regular;
+	font-size:12px;
+	color:#b2b2b2;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
