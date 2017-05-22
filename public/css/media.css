@@ -1,8 +1,5 @@
 @media (max-width:750px) {
     
-    #carousel-team {
-        height: 850px;
-    }
     .works-navigation {
     	flex-direction: column;
     	text-align: left;
@@ -18,6 +15,12 @@
 }
 
 @media (max-width:991px) {
+    .team-worker {
+        margin-bottom: 30px;
+    }
+    .sevices-content-item {
+        margin-bottom: 30px;
+    }
 	.form-email, .form-password {
         padding: 0;
     }

@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;fo
 ul{list-style:none}img{border:0}p{margin:0; padding: 0}
 hr{border:none;}
 .center {margin:0 auto};
+
 body {
 	font-family: OpenSans-Regular;
 	background-color: white;
@@ -42,16 +43,15 @@ header {
 	background: url(../image/01.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 750px;
-	position: relative;
+	height: 600px;
 	
 }
 .wrapper {
 	height: 100%;
 	background-color: rgba(0,0,0,0.5);
-	/*display: flex;
+	display: flex;
 	flex-direction: column;
-	justify-content: space-between;*/	
+	justify-content: space-between;	
 	padding: 50px 0;
 
 }
@@ -194,12 +194,11 @@ header {
 	background-color: #b37b33;
 }
 #carousel-team {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .team-worker {
 	text-align: center;
-	
 }
 .team-worker-icon {
 	margin: 0 auto;
@@ -230,39 +229,21 @@ header {
 	font-size: 14px;
 	line-height: 1.714;
 }
-/*#carousel-team {
-	height: 530px;
-	margin-bottom: 80px;
-}*/
-.carousel-indicators {
-	position: relative;
-	bottom:0;
-}
-.carousel-indicators li, .carousel-indicators .active  {
-	width: 10px !important;
-	height: 10px !important;
-	border-radius:0 !important;
-	margin: 0 !important;
-	background-color: white;
-}
-.carousel-indicators .active {
-	border-color:#fcac45;
-	background-color: #fcac45;
-}
 
 /*****sevices*****/
 .services {
 	background-color: white;
 	font-family: OpenSans-Regular;
 	text-align: center;
+	padding: 50px 0;
 }
 .services h2 {
-	margin-top: 100px;
 	display: inline-block;
 	font-size: 44px;
 	color:#222222;
 }
 .services-text {
+	margin-top: 30px;
 	text-align: center;
 	font-family: OpenSans-Italic;
 	color:#6c6c6c;
@@ -270,7 +251,7 @@ header {
 	line-height: 1.5;
 }
 .services-content {
-	margin-top: 105px;
+	margin-top: 30px;
 }
 .sevices-content-item-icon {
 	margin: 0 auto;
@@ -298,7 +279,6 @@ header {
 	font-family: OpenSans-Regular;
 	font-size: 14px;
 	line-height: 1.5;
-	margin-bottom: 100px;
 }
 
 /*****clients*****/
@@ -537,4 +517,22 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+/*****carousel*****/
+.carousel-indicators {
+	position: relative;
+	bottom:0;
+	top:15px;
+}
+.carousel-indicators li, .carousel-indicators .active  {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius:0 !important;
+	margin: 0 !important;
+	background-color: white;
+}
+.carousel-indicators .active {
+	border-color:#fcac45;
+	background-color: #fcac45;
 }
