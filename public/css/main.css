@@ -30,8 +30,25 @@
 body{padding:0;margin:0;*font-size:small;*font:x-small}
 h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style:normal}
 ul{list-style:none}img{border:0}p{margin:0; padding: 0}
-hr{border:none;}
+hr{border:none;padding: 0;margin:0;}
 .center {margin:0 auto};
+
+.line1 {
+	margin-top: 10px;
+}
+.line1 hr, .line2 hr {
+	margin:15px auto 0 auto;
+	height: 5px;
+	position: relative;
+}
+.line1 hr {
+	width: 95px;
+	background-color:#fcac45;
+}
+.line2 hr {
+	width: 65px;
+	background-color: #b37b33;
+}
 
 body {
 	font-family: OpenSans-Regular;
@@ -40,9 +57,6 @@ body {
 } 
 
 header {
-	background: url(../image/01.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 	height: 600px;
 	
 }
@@ -54,6 +68,9 @@ header {
 	justify-content: space-between;	
 	padding: 50px 0;
 
+}
+header .wrapper {
+	padding: 30px 0;
 }
 .navbar {
 	/*padding-top: 40px;*/
@@ -175,24 +192,7 @@ header {
 	display: inline-block;
 	font-size: 44px;
 }
-.line1 {
-	margin-top: 30px;
-}
-.line1 {
-	margin-top: 10px;
-}
-.line1 hr, .line2 hr {
-	height: 5px;
-	position: relative;
-}
-.line1 hr {
-	width: 95px;
-	background-color:#fcac45;
-}
-.line2 hr {
-	width: 65px;
-	background-color: #b37b33;
-}
+
 #carousel-team {
 	margin-top: 30px;
 }
@@ -292,18 +292,14 @@ header {
 	background-attachment: fixed;
 }
 .clients h2 {
-	margin-top: 100px;
 	display: inline-block;
 	font-size: 44px;
 }
 #carousel-clients {
-	margin-top: 90px;
-	height: 170px;
-	margin-bottom: 60px;
+	margin-top: 30px;
 }
 #carousel-clients-1 {
-	height: 100px;
-	margin-top: 90px;
+	margin-top: 30px;
 }
 #carousel-clients img {
 	width: 100%;
@@ -314,13 +310,14 @@ header {
 	font-family: OpenSans-Regular;
 	background-color: white;
 	text-align: center;
+	padding: 50px 0;
 }
 .works h2 {
-	margin-top: 100px;
 	display: inline-block;
 	font-size: 44px;
 }
 .works-text {
+	margin-top: 30px;
 	text-align: center;
 	font-family: OpenSans-Italic;
 	color:#6c6c6c;
@@ -328,7 +325,7 @@ header {
 	line-height: 1.5;
 }
 .works-content {
-	margin-top: 100px;
+	margin-top: 30px;
 }
 .works-navigation {
 	display: flex;
@@ -420,12 +417,11 @@ header {
 	background-attachment: fixed;
 }
 .testimonials h2 {
-	margin-top: 100px;
 	display: inline-block;
 	font-size: 44px;
 }
 #carousel-testimonials {
-	margin-top: 100px;
+	margin-top: 30px;
 }
 .testimonials-item {
 	text-align: center;
@@ -435,7 +431,7 @@ header {
 	color:#e7e7e7;
 }
 .testimonials-item p {
-	margin-top: 50px;
+	margin-top: 30px;
 	color:#b2b2b2;
 }
 #carousel-testimonials .carousel-indicators {
@@ -445,15 +441,16 @@ header {
 
 /*****contacts******/
 .contacts {
+	padding: 50px 0;
 	font-family: OpenSans-Light;
 	text-align: center;
 }
 .contacts h2 {
-	margin-top: 100px;
 	display: inline-block;
 	font-size: 44px;
 }
 .contacts-content-text {
+	margin-top: 30px;
 	text-align: center;
 	font-family: SemiBold-Italic;
 	font-size: 16px;
@@ -468,7 +465,7 @@ header {
 	padding-right: 0;
 }
 .contacts-content-form {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .contacts-content-form input, textarea {
 	width:100%;
@@ -494,6 +491,7 @@ textarea {
 	height: 160px;
 }
 .form-button {
+	margin-top: 30px;
 	padding: 0;
 	text-align: right;
 }
@@ -504,11 +502,11 @@ textarea {
 /*****footer*****/
 footer {
 	background-color: black;
-	padding: 40px 0;
+	padding: 30px 0;
 	font-family: OpenSans-Regular;
 	font-size:12px;
-	color:#b2b2b2;
-	margin-top: 50px;
+	color:#b2b2b2;/*
+	margin-top: 50px;*/
 }
 .footer-text {
 	text-align: center;

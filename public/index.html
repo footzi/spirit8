@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 <header>
@@ -659,6 +660,7 @@
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/parallax.min.js"></script>
 <script>
     $( document ).ready(function() {
     var $container = $('.isotope');
@@ -674,8 +676,13 @@
       $container.isotope({  itemSelector: '.item', filter: selector });
       return false;
     });
+
+
     
 });
+$('header').parallax({imageSrc: 'image/01.jpg'});
+
+$(".about-image").addClass("animated infinite bounceOutLeft")
 </script>
 </body>
 </html>
