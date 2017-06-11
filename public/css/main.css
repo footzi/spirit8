@@ -97,7 +97,10 @@ header .wrapper {
 	border-bottom: 1px solid #fcac45;
 }
 .navbar-nav > li > a:active {
-	color:red;
+	border-bottom: 1px solid #fcac45;
+}
+.active {
+	border-bottom: 1px solid #fcac45;	
 }
 .navbar-brand {
 	font-size: 24px;
