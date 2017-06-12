@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 <header>
@@ -27,12 +26,14 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#" data-scroll="home" class="active">HOME</a></li>
-                            <li><a href="#" data-scroll="about">ABOUT</a></li>
-                            <li><a href="#" data-scroll="services">SERVICES</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#testimonials">TESTIMONIALS</a></li>
-                            <li><a href="#contacts">CONTACT</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="home" class="active-link">HOME</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="about">ABOUT</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="team">TEAM</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="services">SERVICES</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="clients">CLIENTS</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="portfolio">PORTFOLIO</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="testimonials">TESTIMONIALS</a></li>
+                            <li><a class="navbar-link" href="#" data-scroll="contacts">CONTACTS</a></li>
                         </ul> 
                     </div>
                 </div>
@@ -54,7 +55,7 @@
 </section>
 </header>
 <main>
-    <section class="about" id="about" data-anchor="about">
+    <section class="about" data-anchor="about">
         <div class="container">
             <div class="row-fluid">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 about-image" >
@@ -73,13 +74,13 @@
                         <p class="about-list-objects"><span class="glyphicon glyphicon-record" aria-hidden="true"></span><span class="about-list-objects-title"> Mission</span> - We deliver uniqueness and quality</p>
                         <p class="about-list-objects"><span class="glyphicon glyphicon-record" aria-hidden="true"></span><span class="about-list-objects-title"> Skills</span> - Delivering fast and excellent resultsy</p>
                         <p class="about-list-objects"><span class="glyphicon glyphicon-record" aria-hidden="true"></span><span class="about-list-objects-title"> Clients</span> - Satisfied clients thanks to our experience</p>
-                        <a href="#" class="btn btn-default about-list-objects-btn"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> BROWSE OUR WORK</a>
+                        <a href="#" data-scroll="portfolio" class="btn btn-default about-list-objects-btn"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> BROWSE OUR WORK</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="team">
+    <section class="team" data-anchor="team">
         <div class="wrapper">
         <h2>MEET <b>YOU TEEM</b></h2>
         <div class="line1">
@@ -224,7 +225,7 @@
         </div> 
         </div>
     </section>
-    <section class="services" id="services" data-anchor="services">
+    <section class="services" data-anchor="services">
         <h2>
             TAKE A LOOK AT OUR <b>SERVICES</b>
         </h2>
@@ -294,7 +295,7 @@
             </div>
         </div>
     </section>
-    <section class="clients">
+    <section class="clients" data-anchor="clients">
         <div class="wrapper">
             <h2>
             SOME OF <b>OUR CLIENTS</b>
@@ -310,19 +311,22 @@
                     <div class="item active">
                         <div class="container">
                             <div class="row-fluid">
+                                <div class="col-lg-2 col-md-2 col-lg-offset-2 col-md-offset-2">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
+                                </div>
                                 <div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1">
                                     <img class="responsive" src="image/clients/1.png" alt="">
-                                </div>
-                                <div class="col-lg-2 col-md-2" >
                                     <img class="responsive" src="image/clients/2.png" alt="">
-                                </div>
-                                <div class="col-lg-2 col-md-2" >
                                     <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
                                 </div>
-                                <div class="col-lg-2 col-md-2" >
-                                    <img class="responsive" src="image/clients/4.png" alt="">
-                                </div>
-                                <div class="col-lg-2 col-md-2" >
+                                <div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
                                     <img class="responsive" src="image/clients/5.png" alt="">
                                 </div>
                             </div>
@@ -331,19 +335,46 @@
                     <div class="item">
                         <div class="container">
                             <div class="row-fluid">
+                                <div class="col-lg-2 col-md-2 col-lg-offset-2 col-md-offset-2">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
+                                </div>
                                 <div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1">
                                     <img class="responsive" src="image/clients/1.png" alt="">
-                                </div>
-                                <div class="col-lg-2 col-md-2" >
                                     <img class="responsive" src="image/clients/2.png" alt="">
-                                </div>
-                                <div class="col-lg-2 col-md-2" >
                                     <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
                                 </div>
-                                <div class="col-lg-2 col-md-2" >
-                                    <img class="responsive" src="image/clients/4.png" alt="">
+                                <div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
                                 </div>
-                                <div class="col-lg-2 col-md-2" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row-fluid">
+                                <div class="col-lg-2 col-md-2 col-lg-offset-2 col-md-offset-2">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
+                                    <img class="responsive" src="image/clients/5.png" alt="">
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1">
+                                    <img class="responsive" src="image/clients/1.png" alt="">
+                                    <img class="responsive" src="image/clients/2.png" alt="">
+                                    <img class="responsive" src="image/clients/3.png" alt="">
                                     <img class="responsive" src="image/clients/5.png" alt="">
                                 </div>
                             </div>
@@ -352,6 +383,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-clients" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-clients" data-slide-to="1"></li>
+                        <li data-target="#carousel-clients" data-slide-to="2"></li>
                     </ol>
                 </div>
             </div>
@@ -362,9 +394,11 @@
                             <div class="row-fluid">
                                 <div class="col-sm-6 col-xs-6">
                                     <img class="img-responsive center" src="image/clients/1.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/2.png" alt="">
                                 </div>
                                 <div class="col-sm-6 col-xs-6" >
-                                    <img class="img-responsive center" src="image/clients/2.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/3.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/5.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -373,10 +407,12 @@
                         <div class="container">
                             <div class="row-fluid">
                                 <div class="col-sm-6 col-xs-6">
-                                    <img class="img-responsive center" src="image/clients/3.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/1.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/2.png" alt="">
                                 </div>
                                 <div class="col-sm-6 col-xs-6" >
-                                    <img class="img-responsive center" src="image/clients/4.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/3.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/5.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -385,7 +421,8 @@
                         <div class="container">
                             <div class="row-fluid">
                                 <div class="col-sm-12 col-xs-12">
-                                    <img class="img-responsive center" src="image/clients/4.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/1.png" alt="">
+                                    <img class="img-responsive center" src="image/clients/2.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -399,7 +436,7 @@
             </div>
         </div>
     </section>
-    <section class="works" id="portfolio">
+    <section class="works" data-anchor="portfolio">
         <h2>
             TAKE A LOOK AT <b> OUR WORK</b>
         </h2>
@@ -528,7 +565,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonials" id="testimonials">
+    <section class="testimonials" data-anchor="testimonials">
         <div class="wrapper">
             <h2>
                 <b>OUR CLIENTS’</b> TESTIMONIALS
@@ -570,7 +607,7 @@
             </div>
         </div>
     </section>
-    <section class="contacts" id="contacts">
+    <section class="contacts" data-anchor="contacts">
         <h2>
             FEEL FREE TO <b>CONTACT US</b>
         </h2>
@@ -651,8 +688,5 @@
 <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="js/parallax.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script>
-    
-</script>
 </body>
 </html>
